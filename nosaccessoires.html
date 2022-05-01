@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="mousseline.css">
+	<title></title>
+</head>
+<body id="bg">
+<div class="cards" >
+		
+		<div class="card"><img src="1-access.jpg" onclick="aggrandir()" id="box1">
+			<div class="descript"> <h4 class="article"> Lisettes </h4> <h4 class="Prix"> 1000 Fcfa </h4> </div>
+			<div class="Description"> </div>
+		</div>
+		<div class="card"><img src="2-access.jpg" onclick="aggrandir()" id="bg">
+			<div class="descript"> <h4 class="article">Pin à Strass <h4 class="Prix"> 1500 Fcfa </h4> </div>
+			<div class="Description">Ce vend par douzaine </div>
+		</div>
+		<div class="card"><img src="3-access.jpg">
+			<div class="descript"> <h4 class="article"> Pin <h4 class="Prix"> 1500 Fcfa </h4> </div>
+			<div class="Description"> Ce vend par deux
+		 </div> </div>
+		 <div class="card"><img src="4-access.jpg">
+			<div class="descript"> <h4 class="article">Pince Anti-trou <h4 class="Prix"> 1500 Fcfa </h4> </div>
+			<div class="Description"> Fixez vos voiles, sans les troués ou les abîmés par les aiguilles ou épingles
+		 </div>
+		
+	</div>
+	<script type="text/javascript">
+		
+		img = document.getElementById("box1");
+		img2 = document.getElementById("bg");
+		function aggrandir()
+		{
+			img.style.transform =" scale(1.5)";
+			img.style.width= "400px";
+			img.style.height= "300px";
+			img.style.transition=" height 0.5s ease";
+			img.style.marginLeft="410px";
+			img.style.marginBottom="0px";
+			img2.style.color="transparent";
+
+		}
+
+</script>
+
+</body>
+</html>

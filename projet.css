@@ -1,0 +1,110 @@
+ #entete
+{
+	background-image: url(3_bg.jpg);
+	background-repeat: no-repeat;
+
+    position : absolute; 
+	left: 0%;
+	top: 0%;
+	width: 100%;
+	height: 20%;
+	background-color: white ;
+	text-align: center;
+	font-size: 1.6em;
+	padding-top: 1%;
+	font-family: "Agency FB";
+	text-transform: uppercase;
+}
+#entete p {
+	color:  black;
+}
+#entete h1{
+	color: purple;
+}
+#menu a:hover {
+color: purple;
+font-size: 1.2em;
+border-bottom: 2px;
+
+}
+#menu
+ {
+	position :absolute; 
+	left: 0%;
+	top: 20%;
+	width: 100%;
+	height: 55%;
+	background-color: white ;
+	text-align: center;
+	font-size: 2em;
+	padding-top: 0%;
+	font-family: "Agency FB";
+	border-top: solid white 2px;
+}
+
+#menu a
+{
+	padding:13px; 
+	border-left: solid 2px white;
+	height: 100%;
+	color:black;
+	text-decoration: none;
+	display: inline-block;
+}
+
+
+#menu ul li
+{
+	display: inline;
+}
+
+iframe{
+	/*background-image: url(1_bg.jpg) ;*/
+	background-attachment: scroll;
+	background-repeat: no-repeat;
+	background-position: 100px 10px 0px 0px 0px;
+	
+	height: 70% ; width:300% opacity: 1
+
+}
+#corps
+{
+	position :absolute; 
+	left: 0%;
+	top: 35%;
+	width: 100%;
+	height: 100%;
+	
+	text-align: center;
+	padding-top: 0%;
+	font-size :30em; 
+	/*font-size: 2em;
+	
+	font-family: "Agency FB";*/
+	border-top: solid white 2px;
+}
+#corps{
+	/*background-image: url(3_bg.jpg);
+	background-position:; ;
+	background-repeat: no-repeat;*/
+}
+#pieddepage
+{
+	position :absolute; 
+	left: 0%;
+	top: 113%;
+	width: 100%;
+	height: 42%;
+	background-color: black ;
+	text-align: center;
+	font-size: 1em;
+	padding-top: 0%;
+	font-family: "Agency FB";
+	border-top: solid white 2px;
+}
+#pieddepage {
+	color: white;
+}
+#pieddepage p {
+cursor: pointer;
+}
